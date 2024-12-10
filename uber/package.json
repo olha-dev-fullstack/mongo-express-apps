@@ -1,0 +1,16 @@
+{
+  "name": "uber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec 'mocha --recursive -R min'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mocha": "^10.8.2",
+    "supertest": "^7.0.0"
+  }
+}
